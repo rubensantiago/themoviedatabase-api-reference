@@ -13,7 +13,7 @@
     <a title="TheMovieDatabase  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">Movies.app</a> (5% documented)</p>
+        <p><a href="index.html">TheMovieDatabase</a> (5% documented)</p>
         <p class="header-right"><a href="https://github.com/rubensantiago/themoviedatabase"><img src="img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -88,14 +88,99 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:16TheMovieDatabase30ImageDownloadCompletionHandlera">ImageDownloadCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:16TheMovieDatabase0B30SearchResultsCompletionHandlera">MovieSearchResultsCompletionHandler</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
         <section>
           <section class="section">
             
-            <h1 id='themoviedatabase' class='heading'>TheMovieDatabase</h1>
-<h2 id='requirements' class='heading'>Requirements</h2>
+            <h1 id='strong-the-movie-database-strong' class='heading'><strong>The Movie Database</strong></h1>
+<h3 id='complete-framework-api-reference' class='heading'>Complete Framework API Reference</h3>
+
+<p>By Rubén Santiago</p>
+
+<p><img src="screenshot.png" alt="Screenshot of Movies app" title="Logo Title Text 1"></p>
+<h2 id='ios-code-challenge-movie-search' class='heading'>iOS Code Challenge: Movie Search</h2>
+<h3 id='requirements' class='heading'>Requirements</h3>
+
+<p>You are asked to implement an iOS app that will search for movies through The Movie Database (TMDb). The app will allow us to type in a keyword and then visualize all the movies matching that keyword. For each movie returned, the app will display its title, poster, and overview (short summary of the plot).</p>
+
+<ul>
+<li>Use the “Search” API provided by <a href="https://www.themoviedb.org/documentation/api">https://www.themoviedb.org/documentation/api</a></li>
+<li>Make a GET request to <a href="https://api.themoviedb.org/3/search/movie">https://api.themoviedb.org/3/search/movie</a> with the following parameters:
+
+<ul>
+<li>api_key: for convenience, use 2a61185ef6a27f400fd92820ad9e8537</li>
+<li>query: a string representing the keyword we are searching for</li>
+</ul></li>
+<li>Make a GET request to <a href="https://image.tmdb.org/t/p/w600_and_h900_bestv2/%7Bposter%7D">https://image.tmdb.org/t/p/w600_and_h900_bestv2/{poster}</a> to download the poster image for the movie, where {poster} is the value returned by the previous endpoint within the poster_path field.</li>
+</ul>
+<h4 id='sample-requests' class='heading'>Sample Requests</h4>
+
+<ul>
+<li>Searching for “Harry Potter”: 
+
+<ul>
+<li><a href="https://api.themoviedb.org/3/search/movie?api_key=2a61185ef6a27f400fd92820ad9e8537&query=Harry%20Potter">https://api.themoviedb.org/3/search/movie?api_key=2a61185ef6a27f400fd92820ad9e8537&amp;query=Harry%20Potter</a></li>
+</ul></li>
+<li>Harry Potter and the Philosopher’s Stone poster: 
+
+<ul>
+<li><a href="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lR4drT4VGfts32j9jYTZUc1a3Pa.jpg">https://image.tmdb.org/t/p/w600_and_h900_bestv2/lR4drT4VGfts32j9jYTZUc1a3Pa.jpg</a></li>
+</ul></li>
+</ul>
+<h4 id='hard-requirements' class='heading'>Hard Requirements</h4>
+
+<ul>
+<li>The code needs to compile and run in the simulator</li>
+<li>The project should run out of the box in the latest (non-beta) version of Xcode</li>
+<li>No modifications required by the evaluator</li>
+<li>No third party tools or libraries</li>
+<li>The code should not crash under normal usage (searching, scrolling, rotation)</li>
+<li>The code should contain no third party libraries
+
+<ul>
+<li>NSCache, NSJSONSerialization, NSURLSession, and UISearchController are your friends</li>
+</ul></li>
+<li>The code should be performant</li>
+<li>Thread management</li>
+<li>In-memory image caching</li>
+<li>Table cell reuse</li>
+<li>Placeholder for unloaded images</li>
+<li>Other Considerations</li>
+<li>The code should be easy to review</li>
+<li>Be consistent in coding style</li>
+<li>Write comments where necessary</li>
+<li>Write unit tests to cover core business logic</li>
+<li>Not Required</li>
+<li>This project is meant to be narrow in scope, you should not implement:</li>
+<li>Pagination</li>
+<li>Disk-based cache</li>
+<li>UI automation tests</li>
+<li>Your project only needs to support the latest (non-beta) build target</li>
+</ul>
+<h4 id='notes' class='heading'>Notes</h4>
+
+<ul>
+<li>You are not required to follow the exact design sample provided by us</li>
+<li>Objective-C and Swift code are welcome</li>
+<li>You can use Apple’s Network Link Conditioner to test your app under slow network conditions to test proper caching and cell reuse</li>
+<li>While time to complete a solid answer varies, you should expect to spend around 3-5 hours on the project</li>
+<li>When submitting, email us back a compressed zip file of your project and briefly outline what you would implement, if you were given more time, with the intention of submitting to the App Store</li>
+<li>Please do not share this document publicly</li>
+<li>Please reach out to us if you have questions</li>
+</ul>
 <h2 id='author' class='heading'>Author</h2>
 
 <p>Ruben Santiago, <a href="mailto:rubensantiago7@gmail.com">rubensantiago7@gmail.com</a></p>

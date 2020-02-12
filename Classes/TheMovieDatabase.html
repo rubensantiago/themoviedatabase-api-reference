@@ -14,7 +14,7 @@
     <a title="TheMovieDatabase Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Movies.app</a> (5% documented)</p>
+        <p><a href="../index.html">TheMovieDatabase</a> (5% documented)</p>
         <p class="header-right"><a href="https://github.com/rubensantiago/themoviedatabase"><img src="../img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -89,6 +89,17 @@
               </li>
             </ul>
           </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:16TheMovieDatabase30ImageDownloadCompletionHandlera">ImageDownloadCompletionHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:16TheMovieDatabase0B30SearchResultsCompletionHandlera">MovieSearchResultsCompletionHandler</a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
       <article class="main-content">
@@ -107,33 +118,6 @@
           <section class="section task-group-section">
             <div class="task-group">
               <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16TheMovieDatabaseAAC0B30SearchResultsCompletionHandlera"></a>
-                    <a name="//apple_ref/swift/Alias/MovieSearchResultsCompletionHandler" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TheMovieDatabaseAAC0B30SearchResultsCompletionHandlera">MovieSearchResultsCompletionHandler</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">MovieSearchResultsCompletionHandler</span> <span class="o">=</span> <span class="p">([</span><span class="kt"><a href="../Structs/MovieSearchResultItem.html">MovieSearchResultItem</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -236,34 +220,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">searchFor</span><span class="p">(</span><span class="n">movieNamed</span> <span class="nv">searchQuery</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
-					  <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Classes/TheMovieDatabase.html#/s:16TheMovieDatabaseAAC0B30SearchResultsCompletionHandlera">MovieSearchResultsCompletionHandler</a></span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:16TheMovieDatabaseAAC30ImageDownloadCompletionHandlera"></a>
-                    <a name="//apple_ref/swift/Alias/ImageDownloadCompletionHandler" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TheMovieDatabaseAAC30ImageDownloadCompletionHandlera">ImageDownloadCompletionHandler</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">typealias</span> <span class="kt">ImageDownloadCompletionHandler</span> <span class="o">=</span> <span class="p">(</span><span class="kt">UIImage</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+					  <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:16TheMovieDatabase0B30SearchResultsCompletionHandlera">MovieSearchResultsCompletionHandler</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -293,7 +250,7 @@
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getImage</span><span class="p">(</span><span class="n">atPath</span> <span class="nv">path</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
 			  <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span> <span class="o">=</span> <span class="kt">CGSize</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="mi">600</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">900</span><span class="p">),</span>
 			  <span class="nv">quality</span><span class="p">:</span> <span class="kt"><a href="../Enums/ImageQuality.html">ImageQuality</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">best</span><span class="p">,</span>
-			  <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Classes/TheMovieDatabase.html#/s:16TheMovieDatabaseAAC30ImageDownloadCompletionHandlera">ImageDownloadCompletionHandler</a></span><span class="p">)</span></code></pre>
+			  <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:16TheMovieDatabase30ImageDownloadCompletionHandlera">ImageDownloadCompletionHandler</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>

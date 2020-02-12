@@ -43,13 +43,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/Foundation Extensions/URLSession.swift",
-      "line": 50,
-      "symbol": "URLSession.newJSONEncoder()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Endpoint.swift",
       "line": 10,
       "symbol": "Endpoint",
@@ -402,62 +395,62 @@
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
       "line": 11,
-      "symbol": "TheMovieDatabase",
-      "symbol_kind": "source.lang.swift.decl.class",
+      "symbol": "MovieSearchResultsCompletionHandler",
+      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
       "line": 13,
-      "symbol": "TheMovieDatabase.MovieSearchResultsCompletionHandler",
+      "symbol": "ImageDownloadCompletionHandler",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
       "line": 15,
+      "symbol": "TheMovieDatabase",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
+      "line": 18,
       "symbol": "TheMovieDatabase.urls",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
-      "line": 17,
+      "line": 20,
       "symbol": "TheMovieDatabase.cache",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
-      "line": 19,
+      "line": 22,
       "symbol": "TheMovieDatabase.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
-      "line": 21,
+      "line": 24,
       "symbol": "TheMovieDatabase.searchFor(movieNamed:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
-      "line": 41,
+      "line": 44,
       "symbol": "TheMovieDatabase",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
-      "line": 43,
-      "symbol": "TheMovieDatabase.ImageDownloadCompletionHandler",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/TheMovieDatabase.swift",
-      "line": 45,
+      "line": 46,
       "symbol": "TheMovieDatabase.getImage(atPath:size:quality:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
