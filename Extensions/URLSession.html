@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URLSession Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    <style> header { background-color: #c6332c; } header p { color: #b9b9b9; } .sidebar { width: 249px; } </style>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/URLSession" class="dashAnchor"></a>
+    <a title="URLSession Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Movies.app</a> (5% documented)</p>
+        <p class="header-right"><a href="https://github.com/rubensantiago/themoviedatabase"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TheMovieDatabase Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        URLSession Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TheMovieDatabase.html">TheMovieDatabase</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ImageQuality.html">ImageQuality</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSession.html">URLSession</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/URLQueryParameterStringConvertible.html">URLQueryParameterStringConvertible</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Endpoint.html">Endpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MovieSearchResultItem.html">MovieSearchResultItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MovieSearchResultItem/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SearchMoviesResponse.html">SearchMoviesResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SearchMoviesResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLFactory.html">URLFactory</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>URLSession</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">URLSession</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So12NSURLSessionC16TheMovieDatabaseE11codableTask33_A43EB238023F59230271E2DB2A0CAFDBLL4with17completionHandlerSo0a4DataF0C10Foundation3URLV_yxSg_So13NSURLResponseCSgs5Error_pSgtctSeRzSERzlF"></a>
+                    <a name="//apple_ref/swift/Method/codableTask(with:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So12NSURLSessionC16TheMovieDatabaseE11codableTask33_A43EB238023F59230271E2DB2A0CAFDBLL4with17completionHandlerSo0a4DataF0C10Foundation3URLV_yxSg_So13NSURLResponseCSgs5Error_pSgtctSeRzSERzlF">codableTask(with:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">fileprivate</span> <span class="kd">func</span> <span class="n">codableTask</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">Codable</span><span class="o">&gt;</span><span class="p">(</span><span class="n">with</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span>
+                                         <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">?,</span> <span class="kt">URLResponse</span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So12NSURLSessionC16TheMovieDatabaseE24searchMoviesResponseTask4with17completionHandlerSo0a4DataH0C10Foundation3URLV_yAC06SearchfG0VSg_So13NSURLResponseCSgs5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/searchMoviesResponseTask(with:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So12NSURLSessionC16TheMovieDatabaseE24searchMoviesResponseTask4with17completionHandlerSo0a4DataH0C10Foundation3URLV_yAC06SearchfG0VSg_So13NSURLResponseCSgs5Error_pSgtctF">searchMoviesResponseTask(with:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">searchMoviesResponseTask</span><span class="p">(</span><span class="n">with</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span>
+                              <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/SearchMoviesResponse.html">SearchMoviesResponse</a></span><span class="p">?,</span> <span class="kt">URLResponse</span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So12NSURLSessionC16TheMovieDatabaseE03getC10PosterTask4with17completionHandlerSo0a4DataG0C10Foundation3URLV_yAI0K0VSg_So13NSURLResponseCSgs5Error_pSgtctF"></a>
+                    <a name="//apple_ref/swift/Method/getMoviePosterTask(with:completionHandler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So12NSURLSessionC16TheMovieDatabaseE03getC10PosterTask4with17completionHandlerSo0a4DataG0C10Foundation3URLV_yAI0K0VSg_So13NSURLResponseCSgs5Error_pSgtctF">getMoviePosterTask(with:completionHandler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getMoviePosterTask</span><span class="p">(</span><span class="n">with</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span>
+							  <span class="nv">completionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Data</span><span class="p">?,</span> <span class="kt">URLResponse</span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URLSessionDataTask</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Helper%20functions%20for%20creating%20encoders%20and%20decoders"></a>
+                <a name="//apple_ref/swift/Section/Helper functions for creating encoders and decoders" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Helper%20functions%20for%20creating%20encoders%20and%20decoders"></a>
+                  <h3 class="section-name"><p>Helper functions for creating encoders and decoders</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So12NSURLSessionC16TheMovieDatabaseE14newJSONDecoder10Foundation0F0CyF"></a>
+                    <a name="//apple_ref/swift/Method/newJSONDecoder()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So12NSURLSessionC16TheMovieDatabaseE14newJSONDecoder10Foundation0F0CyF">newJSONDecoder()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">newJSONDecoder</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">JSONDecoder</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So12NSURLSessionC16TheMovieDatabaseE14newJSONEncoder10Foundation0F0CyF"></a>
+                    <a name="//apple_ref/swift/Method/newJSONEncoder()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So12NSURLSessionC16TheMovieDatabaseE14newJSONEncoder10Foundation0F0CyF">newJSONEncoder()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">newJSONEncoder</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">JSONEncoder</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Ruben Santiago/TheMovieDatabase" target="_blank" rel="external">Ruben Santiago</a>. All rights reserved. (Last updated: 2020-02-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
