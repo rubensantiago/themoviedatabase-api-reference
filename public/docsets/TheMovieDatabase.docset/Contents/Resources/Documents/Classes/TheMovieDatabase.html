@@ -14,7 +14,7 @@
     <a title="TheMovieDatabase Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">TheMovieDatabase</a> (6% documented)</p>
+        <p><a href="../index.html">TheMovieDatabase</a> (100% documented)</p>
         <p class="header-right"><a href="https://github.com/rubensantiago/themoviedatabase"><img src="../img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -75,7 +75,7 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>The main interface for fetching data from <em>themoviedb.org</em></p>
 
           </section>
           <section class="section task-group-section">
@@ -94,7 +94,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Designated initializer</p>
 
                       </div>
                       <div class="declaration">
@@ -121,7 +121,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Searches for movies on <em>themoviedb.org</em> using a given search query</p>
 
                       </div>
                       <div class="declaration">
@@ -132,6 +132,37 @@
 					  <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:16TheMovieDatabase0B30SearchResultsCompletionHandlera">MovieSearchResultsCompletionHandler</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>searchQuery</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A search query</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A completion handler to handle the HTTP response</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
@@ -149,7 +180,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Retrieves a movie poster from the cache. If it does not exist in the cache, it will download it from the <em>themoviedb.org</em></p>
 
                       </div>
                       <div class="declaration">
@@ -162,6 +193,61 @@
 			  <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:16TheMovieDatabase30ImageDownloadCompletionHandlera">ImageDownloadCompletionHandler</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>path</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the filepath where the image can be found</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The requested size of the poster to be returned</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>quality</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The image quality of the poster that is returned</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure to handle the movie poster</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>

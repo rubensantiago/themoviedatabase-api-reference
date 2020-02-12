@@ -14,7 +14,7 @@
     <a title="Structures  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">TheMovieDatabase</a> (5% documented)</p>
+        <p><a href="index.html">TheMovieDatabase</a> (69% documented)</p>
         <p class="header-right"><a href="https://github.com/rubensantiago/themoviedatabase"><img src="img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -59,19 +59,8 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Protocols.html">Protocols</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Protocols/URLQueryParameterStringConvertible.html">URLQueryParameterStringConvertible</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
             <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Structs/Endpoint.html">Endpoint</a>
-              </li>
               <li class="nav-group-task">
                 <a href="Structs/MovieSearchResultItem.html">MovieSearchResultItem</a>
               </li>
@@ -85,7 +74,10 @@
                 <a href="Structs/SearchMoviesResponse/CodingKeys.html">– CodingKeys</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/URLFactory.html">URLFactory</a>
+                <a href="Structs/TheMovieDatabaseEndpoint.html">TheMovieDatabaseEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TheMovieDatabaseURLFactory.html">TheMovieDatabaseURLFactory</a>
               </li>
             </ul>
           </li>
@@ -115,34 +107,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16TheMovieDatabase8EndpointV"></a>
-                    <a name="//apple_ref/swift/Struct/Endpoint" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TheMovieDatabase8EndpointV">Endpoint</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                        <a href="Structs/Endpoint.html" class="slightly-smaller">See more</a>
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">struct</span> <span class="kt">Endpoint</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:16TheMovieDatabase0B16SearchResultItemV"></a>
                     <a name="//apple_ref/swift/Struct/MovieSearchResultItem" class="dashAnchor"></a>
                     <a class="token" href="#/s:16TheMovieDatabase0B16SearchResultItemV">MovieSearchResultItem</a>
@@ -153,7 +117,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Represents an individual movie listing from <em>themoviedb.org</em></p>
 
                         <a href="Structs/MovieSearchResultItem.html" class="slightly-smaller">See more</a>
                       </div>
@@ -212,9 +176,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:16TheMovieDatabase10URLFactoryV"></a>
-                    <a name="//apple_ref/swift/Struct/URLFactory" class="dashAnchor"></a>
-                    <a class="token" href="#/s:16TheMovieDatabase10URLFactoryV">URLFactory</a>
+                    <a name="/s:16TheMovieDatabase0abC8EndpointV"></a>
+                    <a name="//apple_ref/swift/Struct/TheMovieDatabaseEndpoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TheMovieDatabase0abC8EndpointV">TheMovieDatabaseEndpoint</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -222,15 +186,43 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>REST Service endpoints for <em>themoviedb.org</em></p>
 
-                        <a href="Structs/URLFactory.html" class="slightly-smaller">See more</a>
+                        <a href="Structs/TheMovieDatabaseEndpoint.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">struct</span> <span class="kt">URLFactory</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">struct</span> <span class="kt">TheMovieDatabaseEndpoint</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:16TheMovieDatabase0abC10URLFactoryV"></a>
+                    <a name="//apple_ref/swift/Struct/TheMovieDatabaseURLFactory" class="dashAnchor"></a>
+                    <a class="token" href="#/s:16TheMovieDatabase0abC10URLFactoryV">TheMovieDatabaseURLFactory</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Builds URLs for <em>themoviedb.org</em> REST Endpoints</p>
+
+                        <a href="Structs/TheMovieDatabaseURLFactory.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">struct</span> <span class="kt">TheMovieDatabaseURLFactory</span></code></pre>
 
                         </div>
                       </div>
