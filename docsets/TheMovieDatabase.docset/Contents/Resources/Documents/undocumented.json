@@ -2,154 +2,98 @@
   "warnings": [
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 29,
-      "symbol": "MovieSearchResultItem.popularity",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 30,
-      "symbol": "MovieSearchResultItem.voteCount",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 31,
-      "symbol": "MovieSearchResultItem.video",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 32,
-      "symbol": "MovieSearchResultItem.backdropPath",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 33,
-      "symbol": "MovieSearchResultItem.originalLanguage",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 34,
-      "symbol": "MovieSearchResultItem.genreIDS",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 35,
-      "symbol": "MovieSearchResultItem.title",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 36,
-      "symbol": "MovieSearchResultItem.voteAverage",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 38,
+      "line": 53,
       "symbol": "MovieSearchResultItem.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 39,
+      "line": 54,
       "symbol": "MovieSearchResultItem.CodingKeys.popularity",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 40,
+      "line": 55,
       "symbol": "MovieSearchResultItem.CodingKeys.voteCount",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 41,
+      "line": 56,
       "symbol": "MovieSearchResultItem.CodingKeys.video",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 42,
+      "line": 57,
       "symbol": "MovieSearchResultItem.CodingKeys.posterPath",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 43,
+      "line": 58,
       "symbol": "MovieSearchResultItem.CodingKeys.id",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 44,
+      "line": 59,
       "symbol": "MovieSearchResultItem.CodingKeys.backdropPath",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 45,
+      "line": 60,
       "symbol": "MovieSearchResultItem.CodingKeys.originalLanguage",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 46,
+      "line": 61,
       "symbol": "MovieSearchResultItem.CodingKeys.originalTitle",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 47,
+      "line": 62,
       "symbol": "MovieSearchResultItem.CodingKeys.genreIDS",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 48,
+      "line": 63,
       "symbol": "MovieSearchResultItem.CodingKeys.title",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 49,
+      "line": 64,
       "symbol": "MovieSearchResultItem.CodingKeys.voteAverage",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 50,
+      "line": 65,
       "symbol": "MovieSearchResultItem.CodingKeys.overview",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/MovieSearchResultItem.swift",
-      "line": 51,
+      "line": 66,
       "symbol": "MovieSearchResultItem.CodingKeys.releaseDate",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -163,63 +107,35 @@
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 12,
-      "symbol": "SearchMoviesResponse.page",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 13,
-      "symbol": "SearchMoviesResponse.totalResults",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 14,
-      "symbol": "SearchMoviesResponse.totalPages",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 15,
-      "symbol": "SearchMoviesResponse.results",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 17,
+      "line": 25,
       "symbol": "SearchMoviesResponse.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 18,
+      "line": 26,
       "symbol": "SearchMoviesResponse.CodingKeys.page",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 19,
+      "line": 27,
       "symbol": "SearchMoviesResponse.CodingKeys.totalResults",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 20,
+      "line": 28,
       "symbol": "SearchMoviesResponse.CodingKeys.totalPages",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ruben/Developer/themoviedatabase/TheMovieDatabase/Classes/REST API/Search/Movies/SearchMoviesResponse.swift",
-      "line": 21,
+      "line": 29,
       "symbol": "SearchMoviesResponse.CodingKeys.results",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
