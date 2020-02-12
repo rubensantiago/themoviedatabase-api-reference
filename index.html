@@ -13,7 +13,7 @@
     <a title="TheMovieDatabase  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">TheMovieDatabase</a> (69% documented)</p>
+        <p><a href="index.html">TheMovieDatabase</a> (95% documented)</p>
         <p class="header-right"><a href="https://github.com/rubensantiago/themoviedatabase"><img src="img/gh.png"/>View on GitHub</a></p>
       </div>
     </header>
@@ -64,15 +64,6 @@
                 <a href="Structs/MovieSearchResultItem.html">MovieSearchResultItem</a>
               </li>
               <li class="nav-group-task">
-                <a href="Structs/MovieSearchResultItem/CodingKeys.html">– CodingKeys</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/SearchMoviesResponse.html">SearchMoviesResponse</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Structs/SearchMoviesResponse/CodingKeys.html">– CodingKeys</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Structs/TheMovieDatabaseEndpoint.html">TheMovieDatabaseEndpoint</a>
               </li>
               <li class="nav-group-task">
@@ -100,24 +91,60 @@
             <h1 id='strong-the-movie-database-strong' class='heading'><strong>The Movie Database</strong></h1>
 
 <p>By Rubén Santiago</p>
+
+<p><img src="https://rubensantiago.github.io/themoviedatabase-api-reference/screenshot.png" alt="Screenshot of Movies.app"></p>
+<h3 id='implementation-details' class='heading'>Implementation Details</h3>
+
+<ul>
+<li>The MovieDB API is encapsulated in a framework I created called <code><a href="Classes/TheMovieDatabase.html">TheMovieDatabase</a></code>
+
+<ul>
+<li>i.e. encapsulates the &ldquo;core business logic&rdquo;</li>
+<li>Has 100% unit test code coverage</li>
+</ul></li>
+<li>The Movies app target builds and embeds <code><a href="Classes/TheMovieDatabase.html">TheMovieDatabase</a></code> dependency when building the app</li>
+<li>In Movies app has a protocol named <code>AbstractMovieDatabase</code> allows for 
+
+<ul>
+<li>Future expansion of support for other movie databases with minimal effort to adopt client-side (Movies.app)</li>
+<li>Insulation from change in framework vendor</li>
+</ul></li>
+<li>Skeleton entities appear in the source code for IMDb but are not implemented</li>
+</ul>
+
+<p>Public and Complete API Reference Documentation can be found in the <code>/docs</code> directory, or&hellip; </p>
 <h3 id='strong-a-href-https-rubensantiago-github-io-themoviedatabase-api-reference-complete-api-reference-️-a-strong' class='heading'><strong><a href="https://rubensantiago.github.io/themoviedatabase-api-reference">Complete API Reference ➡️</a></strong></h3>
 <h3 id='strong-a-href-https-rubensantiago-github-io-themoviedatabase-api-reference-public-public-api-reference-️-a-strong' class='heading'><strong><a href="https://rubensantiago.github.io/themoviedatabase-api-reference/public">Public API Reference ➡️</a></strong></h3>
+<h3 id='given-more-time-i-would-implement' class='heading'>Given More Time, I Would Implement:</h3>
 
-<p><img src="https://rubensantiago.github.io/themoviedatabase-api-reference/screenshot.png" alt="Screenshot of Movies app"></p>
+<ul>
+<li><code>os.log</code> support</li>
+<li>More robust error handling for HTTP Response decoding</li>
+<li>More detailed test failure messages</li>
+<li>Add support for other movie databases</li>
+<li>A more unique UI</li>
+<li>Fix known issues listed below</li>
+</ul>
+
+<p>Known Issues</p>
+
+<ul>
+<li>Small performance lag when typing quickly</li>
+</ul>
 <h2 id='ios-code-challenge-movie-search' class='heading'>iOS Code Challenge: Movie Search</h2>
 <h3 id='requirements' class='heading'>Requirements</h3>
 
 <p>You are asked to implement an iOS app that will search for movies through The Movie Database (TMDb). The app will allow us to type in a keyword and then visualize all the movies matching that keyword. For each movie returned, the app will display its title, poster, and overview (short summary of the plot).</p>
 
 <ul>
-<li>Use the “Search” API provided by <a href="https://www.themoviedb.org/documentation/api">https://www.themoviedb.org/documentation/api</a></li>
-<li>Make a GET request to <a href="https://api.themoviedb.org/3/search/movie">https://api.themoviedb.org/3/search/movie</a> with the following parameters:
+<li>Use the “Search” API provided by <code>https://www.themoviedb.org/documentation/api</code></li>
+<li>Make a <code>GET</code> request to <code>https://api.themoviedb.org/3/search/movie</code> with the following parameters:
 
 <ul>
-<li>api_key: for convenience, use 2a61185ef6a27f400fd92820ad9e8537</li>
-<li>query: a string representing the keyword we are searching for</li>
+<li><code>api_key</code>: for convenience, use <code>2a61185ef6a27f400fd92820ad9e8537</code></li>
+<li><code>query</code>: a string representing the keyword we are searching for</li>
 </ul></li>
-<li>Make a GET request to <a href="https://image.tmdb.org/t/p/w600_and_h900_bestv2/%7Bposter%7D">https://image.tmdb.org/t/p/w600_and_h900_bestv2/{poster}</a> to download the poster image for the movie, where {poster} is the value returned by the previous endpoint within the poster_path field.</li>
+<li>Make a <code>GET</code> request to <code>https://image.tmdb.org/t/p/w600_and_h900_bestv2/{poster}</code> to download the poster image for the movie, where {poster} is the value returned by the previous endpoint within the poster_path field.</li>
 </ul>
 <h4 id='sample-requests' class='heading'>Sample Requests</h4>
 
@@ -125,12 +152,12 @@
 <li>Searching for “Harry Potter”: 
 
 <ul>
-<li><a href="https://api.themoviedb.org/3/search/movie?api_key=2a61185ef6a27f400fd92820ad9e8537&query=Harry%20Potter">https://api.themoviedb.org/3/search/movie?api_key=2a61185ef6a27f400fd92820ad9e8537&amp;query=Harry%20Potter</a></li>
+<li><code>https://api.themoviedb.org/3/search/movie?api_key=2a61185ef6a27f400fd92820ad9e8537&amp;query=Harry%20Potter</code></li>
 </ul></li>
 <li>Harry Potter and the Philosopher’s Stone poster: 
 
 <ul>
-<li><a href="https://image.tmdb.org/t/p/w600_and_h900_bestv2/lR4drT4VGfts32j9jYTZUc1a3Pa.jpg">https://image.tmdb.org/t/p/w600_and_h900_bestv2/lR4drT4VGfts32j9jYTZUc1a3Pa.jpg</a></li>
+<li><code>https://image.tmdb.org/t/p/w600_and_h900_bestv2/lR4drT4VGfts32j9jYTZUc1a3Pa.jpg</code></li>
 </ul></li>
 </ul>
 <h4 id='hard-requirements' class='heading'>Hard Requirements</h4>
